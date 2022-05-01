@@ -2,7 +2,7 @@
 # Supercomputer , origin and the path
 
 
-&nbsp;&nbsp;&nbsp;&nbsp; Supercomputers are the best performing computers of the humankind technology history till today. 
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Supercomputers are the best performing computers of the humankind technology history till today. 
 The hardware, size,technology base, power and even budgets have been changed dramatically.
 
 
@@ -10,6 +10,7 @@ The hardware, size,technology base, power and even budgets have been changed dra
 
 <ol>
 <li>Supercomputers: The amazing race URL :https://www.researchgate.net/publication/270279442_Supercomputers_The_Amazing_Race
-<li>The First Supercomputer (CDC 6600):http://johnljerz.com/superduper/tlxdownloadsiteMAIN/id70.html<li>
+<li>The First Supercomputer (CDC 6600):http://johnljerz.com/superduper/tlxdownloadsiteMAIN/id70.html
+<li>
 <ol>
 
