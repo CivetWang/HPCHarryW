@@ -1,0 +1,17 @@
+# This is a Spack Environment file.
+#
+# It describes a set of packages to be installed, along with
+# configuration settings.
+spack:
+  config:
+  install_missing_compilers: true
+  view: true
+  # add package specs to the `specs` list
+  compilers: [gcc@10.3.0, gcc@11.2.0]
+  packages: [bash@5, openblas threads=openmp, python@3.8.12, py-numpy+blas+lapack, py-numpy, py-scipy, py-matplotlib，py-Pandas]
+  targets: [target=broadwell, target=zen2, target=x86_64_v3]
+  specs:
+   matrix:
+     [$%compilers]
+     [$packages]
+     [$targets]
