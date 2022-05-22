@@ -28,16 +28,10 @@ do
 done
 
 
-	
-wc -l Gulliver.txt
-split -l 2000 Gulliver.txt
-mv xaa 1
-mv xab 2
-mv xac 3
-mv xad 4
-mv xae 5
-mv 1 2/
-mv 2 3/
-mv 3 5/
-mv 4 7/
-mv 5 11/
+mv 65473-0.txt Gulliver.txt
+split --number=l/5 Gulliver.txt travel
+mv travelaa 2/
+mv travelab 3/
+mv travelac 5/
+mv travelad 7/
+mv travelae 11/
