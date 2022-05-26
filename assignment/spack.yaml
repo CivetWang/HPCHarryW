@@ -1,7 +1,8 @@
 spack:
   specs:
-  - gromacs+mpi
-  - mpich
+  - python@3.8.12
+  - py-pandas
+  - py-matplotlib
   container:
     format: docker
     images:
