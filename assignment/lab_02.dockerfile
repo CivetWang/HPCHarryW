@@ -10,14 +10,12 @@ RUN mkdir /opt/spack-environment \
 &&   echo "    install_tree: /opt/software" \
 &&   echo "  compilers: [gcc@10.3.0, gcc@11.2.0]" \
 &&   echo "  packages:" \
-&&   echo "  - bash@5" \
-&&   echo "  - openblas threads=openmp" \
 &&   echo "  - python@3.8.12" \
 &&   echo "  - py-numpy+blas+lapack" \
 &&   echo "  - py-scipy" \
 &&   echo "  - py-matplotlib" \
 &&   echo "  - py-Pandas" \
-&&   echo "  concretizer: together" \
+&&   echo "  target: broadwell" \
 &&   echo "  view: /opt/view") > /opt/spack-environment/spack.yaml
 
 # Install the software, remove unnecessary deps
